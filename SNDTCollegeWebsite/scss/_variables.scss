@@ -1,0 +1,19 @@
+:root {
+  --pri-color: #4169e1;
+
+  /* Dark Mode */
+  --dark-grey: #121212;
+  --white: #ffffffbe; /* Lower opacity, font weight */
+  --d-bg: #24242473; /* Elevate the surface */
+}
+
+/* body.dark-theme img {
+  filter: brightness(.8) contrast(1.2);
+} */
+
+/* Or apply it via media query */
+/* @media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+} */

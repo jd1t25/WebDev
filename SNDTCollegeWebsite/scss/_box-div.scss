@@ -1,0 +1,214 @@
+.blank-container {
+  height: 45vh;
+  width: 100%;
+  @media screen and (max-width: 480px) {
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+.box__div {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  /* background-color: lightgray; */
+  // margin-left: 0.5%;
+  margin-top: 5em;
+  .res-1 {
+    .box__1 {
+      width: 30em;
+      height: 20em;
+      position: absolute;
+      background-color: #4169e1;
+      left: 32em;
+      z-index: 100;
+      bottom: 5em;
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        p {
+          color: white;
+          font-size: 2rem;
+          position: absolute;
+          left: 50%;
+          top: 70%;
+          transform: translate(-50%, -50%);
+        }
+        .ab_img {
+          width: 80px;
+          position: absolute;
+          left: 50%;
+          top: 40%;
+          transform: translate(-50%, -50%);
+          //height: 100%;
+        }
+      }
+    }
+
+    .box__1:hover {
+      background-color: rgb(42, 88, 226);
+    }
+
+    .box__2 {
+      width: 30em;
+      height: 20em;
+      position: absolute;
+      background-color: rgba($color: #e4e4e4, $alpha: 1);
+      left: 62em;
+      z-index: 100;
+      bottom: 5em;
+
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        p {
+          color: black;
+          font-size: 2rem;
+          position: absolute;
+          left: 50%;
+          top: 70%;
+          transform: translate(-50%, -50%);
+        }
+        .adm_img {
+          width: 80px;
+          position: absolute;
+          left: 50%;
+          top: 40%;
+          transform: translate(-50%, -50%);
+          //height: 100%;
+        }
+      }
+    }
+
+    .box__2:hover {
+      background-color: white;
+    }
+  }
+
+  .res-2 {
+    .box__3 {
+      width: 30em;
+      height: 20em;
+      position: absolute;
+      background-color: #4169e1;
+      left: 92em;
+      z-index: 100;
+      bottom: 5em;
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        p {
+          color: white;
+          font-size: 2rem;
+          position: absolute;
+          left: 50%;
+          top: 70%;
+          transform: translate(-50%, -50%);
+        }
+        .cu_img {
+          width: 80px;
+          position: absolute;
+          left: 50%;
+          top: 40%;
+          transform: translate(-50%, -50%);
+          //height: 100%;
+        }
+      }
+    }
+
+    .box__3:hover {
+      background-color: rgb(42, 88, 226);
+    }
+
+    .box__4 {
+      width: 30em;
+      height: 20em;
+      position: absolute;
+      background-color: rgba($color: #e4e4e4, $alpha: 1);
+      left: 122em;
+      z-index: 100;
+      bottom: 5em;
+
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        p {
+          color: black;
+          font-size: 2rem;
+          position: absolute;
+          left: 50%;
+          top: 70%;
+          transform: translate(-50%, -50%);
+        }
+        .ga_img {
+          width: 80px;
+          position: absolute;
+          left: 50%;
+          top: 40%;
+          transform: translate(-50%, -50%);
+          //height: 100%;
+        }
+      }
+    }
+
+    .box__4:hover {
+      background-color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box__div {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgray; */
+    .res-1 {
+      .box__1 {
+        width: 180px;
+        height: 185px;
+        left: 5px;
+      }
+
+      .box__2 {
+        width: 185px;
+        height: 185px;
+        left: 185px;
+      }
+    }
+
+    .res-2 {
+      .box__3 {
+        width: 185px;
+        height: 205px;
+        left: 185px;
+        top: 215px;
+        background-color: #4169e1;
+      }
+
+      .box__4 {
+        width: 180px;
+        height: 205px;
+        left: 5px;
+        top: 215px;
+
+        background-color: rgba($color: #e4e4e4, $alpha: 1);
+      }
+    }
+  }
+}
+
+//////////////////////////////
+
+.asa {
+  height: 70vh;
+  width: 100%;
+}

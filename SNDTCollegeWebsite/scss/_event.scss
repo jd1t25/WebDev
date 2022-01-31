@@ -1,0 +1,155 @@
+.events_heading {
+  display: flex;
+  .events_title {
+    font-size: 14rem;
+    font-weight: 600;
+    opacity: 0.2;
+    margin-left: 35%;
+  }
+  img {
+    height: 9%;
+    width: 9%;
+    opacity: 0.2;
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+  }
+}
+
+#events-slider {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.events-wrap {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.events-grid {
+  width: auto;
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #ddd; /*box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);*/
+  margin: 10px;
+}
+
+.events-grid-image {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.events-grid-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.events-grid-box {
+  display: block;
+  position: absolute;
+  text-align: center;
+  background: #26ccca;
+  left: -80px;
+  top: 15px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.events-grid-box h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 5px;
+}
+
+.events-grid-box p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.events-grid-txt {
+  padding: 25px;
+}
+
+.events-grid-txt span {
+  color: #26ccca;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.events-grid-txt h2 {
+  color: #111;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px 0px 5px 0px;
+}
+
+.events-grid-txt ul {
+  padding: 0;
+  margin: 0;
+}
+
+.events-grid-txt ul li {
+  list-style: none;
+  display: inline-block;
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 8px 10px 8px 0px;
+  letter-spacing: 1px;
+}
+
+.events-grid-txt ul li i {
+  color: #26ccca;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.events-grid-txt p {
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.events-grid-txt a {
+  color: #fff;
+  background: #26ccca;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-decoration-line: none;
+  transition: 0.5s;
+}
+
+/*Hover-Section*/
+.events-grid:hover .events-grid-box {
+  left: 15px;
+  transition: 0.5s;
+}
+
+.events-grid:hover .events-grid-image img {
+  filter: grayscale(1);
+  transform: scale(1.1);
+  transition: 0.5s;
+}

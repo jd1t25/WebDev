@@ -1,0 +1,159 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25em;
+  width: 100%;
+  /* margin-top: 150px; */
+  /* padding-bottom: 5rem; */
+
+  &_img {
+    width: 100%;
+    height: 25%;
+    background-image: url("/images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(3, 3, 3, 0.9);
+    background-blend-mode: multiply;
+    color: white;
+    line-height: 98.3rem;
+    text-align: center;
+    font-size: 3rem;
+    background-attachment: fixed;
+    position: absolute;
+  }
+
+  .students {
+    z-index: 2;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+
+    &_n {
+      font-size: 5rem;
+      font-weight: 400;
+      /* width: 100%; */
+      text-align: center;
+    }
+
+    &_line {
+      width: 12.5rem;
+      height: 7rem;
+      /* width: 100%; */
+      transform: rotate(45deg);
+    }
+    &_t {
+      padding-left: 1rem;
+      font-size: 2rem;
+      font-weight: 50;
+      /* text-align: center; */
+    }
+  }
+
+  .faculty {
+    z-index: 2;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    &_n {
+      font-size: 5rem;
+      font-weight: 400;
+    }
+
+    &_line {
+      width: 11rem;
+      height: 7rem;
+      transform: rotate(45deg);
+    }
+    &_t {
+      padding-left: 1rem;
+      font-size: 2rem;
+      font-weight: 50;
+    }
+  }
+
+  .staff {
+    z-index: 2;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    &_n {
+      font-size: 5rem;
+      font-weight: 400;
+    }
+
+    &_line {
+      width: 9rem;
+      height: 7rem;
+      transform: rotate(45deg);
+    }
+    &_t {
+      padding-left: 1rem;
+      font-size: 2rem;
+      font-weight: 50;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 16em;
+    width: 100%;
+    margin-top: 90px;
+
+    .students {
+      height: auto;
+      &_n {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+      }
+
+      &_line {
+        display: none;
+      }
+      &_t {
+        padding-left: 0.25rem;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+    .faculty {
+      height: auto;
+      &_n {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+
+      &_line {
+        display: none;
+      }
+      &_t {
+        padding-left: 0;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+
+    .staff {
+      height: auto;
+      &_n {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+
+      &_line {
+        display: none;
+      }
+      &_t {
+        padding-left: 0;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
